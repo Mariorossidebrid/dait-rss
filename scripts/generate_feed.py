@@ -19,6 +19,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -140,6 +141,64 @@ def extract_items(html: str) -> list[dict]:
     return list(items.values())
 
 
+MAX_DESCRIPTION_CHARS = 600
+
+# Tag/classi in cui è più probabile trovare il testo vero del comunicato,
+# in ordine di preferenza. Il sito è Drupal: il corpo dell'articolo di
+# solito sta in un blocco "field--name-body" o simile; come rete di
+# sicurezza si ripiega su <article> o sul <main> della pagina.
+CONTENT_SELECTORS = [
+    {"class_": re.compile(r"field--name-body")},
+    {"class_": re.compile(r"field--type-text-with-summary")},
+    {"class_": re.compile(r"^content$")},
+]
+
+
+def extract_description(html: str) -> str:
+    """Estrae un breve estratto testuale dalla pagina di un singolo comunicato."""
+    soup = BeautifulSoup(html, "lxml")
+
+    # 1) meta description / og:description, se presenti e non generiche
+    for attrs in (
+        {"name": "description"},
+        {"property": "og:description"},
+    ):
+        meta = soup.find("meta", attrs=attrs)
+        if meta and meta.get("content"):
+            text = meta["content"].strip()
+            if len(text) > 20:
+                return _truncate(text)
+
+    # 2) blocchi di contenuto tipici di Drupal
+    for selector in CONTENT_SELECTORS:
+        node = soup.find(attrs=selector)
+        if node:
+            text = " ".join(node.get_text(" ", strip=True).split())
+            if len(text) > 20:
+                return _truncate(text)
+
+    # 3) fallback: <article>, poi <main>, prendendo i paragrafi
+    for tag_name in ("article", "main"):
+        node = soup.find(tag_name)
+        if node:
+            paragraphs = [
+                p.get_text(" ", strip=True) for p in node.find_all("p")
+            ]
+            text = " ".join(t for t in paragraphs if t)
+            text = " ".join(text.split())
+            if len(text) > 20:
+                return _truncate(text)
+
+    return ""
+
+
+def _truncate(text: str) -> str:
+    if len(text) <= MAX_DESCRIPTION_CHARS:
+        return text
+    cut = text[:MAX_DESCRIPTION_CHARS].rsplit(" ", 1)[0]
+    return cut + "…"
+
+
 def load_state() -> dict[str, dict]:
     if STATE_FILE.exists():
         try:
@@ -176,6 +235,7 @@ def build_feed(items: list[dict]) -> None:
         fe.id(it["link"])
         fe.title(it["title"])
         fe.link(href=it["link"])
+        fe.description(it.get("description") or it["title"])
         pub = datetime.fromisoformat(it["pubDate"])
         fe.pubDate(pub)
 
@@ -199,12 +259,35 @@ def main() -> int:
             if it["link"] in known:
                 continue
             pub_date = parse_date_from_slug(it["link"]) or datetime.now(timezone.utc)
+
+            description = ""
+            detail_html = fetch_html(it["link"])
+            if detail_html:
+                description = extract_description(detail_html)
+            time.sleep(1)  # non martellare il sito di richieste
+
             known[it["link"]] = {
                 "title": it["title"],
                 "link": it["link"],
                 "pubDate": pub_date.isoformat(),
+                "description": description,
             }
             new_count += 1
+
+    # Backfill: recupera la descrizione anche per le notizie già note che
+    # erano state salvate prima di questa modifica (ne fa al massimo 10
+    # per esecuzione, per non sovraccaricare il sito).
+    backfilled = 0
+    for it in known.values():
+        if backfilled >= 10:
+            break
+        if it.get("description"):
+            continue
+        detail_html = fetch_html(it["link"])
+        if detail_html:
+            it["description"] = extract_description(detail_html)
+        time.sleep(1)
+        backfilled += 1
 
     if not any_page_ok:
         print(
