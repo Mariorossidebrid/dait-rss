@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>DAIT — Finanza locale — Notizie</title>
+    <link>https://example.invalid/feed.xml</link>
+    <description>Feed RSS non ufficiale delle notizie pubblicate su dait.interno.gov.it/finanza-locale/notizie</description>
+    <atom:link href="https://example.invalid/feed.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>it</language>
+    <lastBuildDate>Sun, 26 Jul 2026 06:49:36 +0000</lastBuildDate>
+    <item>
+      <title>Comunicato del 24 dicembre 2025</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</guid>
+      <pubDate>Wed, 24 Dec 2025 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 14 gennaio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-gennaio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-gennaio-2026</guid>
+      <pubDate>Wed, 14 Jan 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 20 gennaio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-20-gennaio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-20-gennaio-2026</guid>
+      <pubDate>Tue, 20 Jan 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 21 gennaio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-gennaio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-gennaio-2026</guid>
+      <pubDate>Wed, 21 Jan 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 22 gennaio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-22-gennaio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-22-gennaio-2026</guid>
+      <pubDate>Thu, 22 Jan 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 3 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-3-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-3-febbraio-2026</guid>
+      <pubDate>Tue, 03 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 6 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-6-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-6-febbraio-2026</guid>
+      <pubDate>Fri, 06 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 10 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-febbraio-2026</guid>
+      <pubDate>Tue, 10 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 13 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-febbraio-2026</guid>
+      <pubDate>Fri, 13 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 18 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-18-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-18-febbraio-2026</guid>
+      <pubDate>Wed, 18 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 25 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-25-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-25-febbraio-2026</guid>
+      <pubDate>Wed, 25 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 27 febbraio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-27-febbraio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-27-febbraio-2026</guid>
+      <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 9 marzo 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-9-marzo-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-9-marzo-2026</guid>
+      <pubDate>Mon, 09 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 10 marzo 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-marzo-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-marzo-2026</guid>
+      <pubDate>Tue, 10 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 13 marzo 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-marzo-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-marzo-2026</guid>
+      <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 19 marzo 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-19-marzo-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-19-marzo-2026</guid>
+      <pubDate>Thu, 19 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 25 marzo 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-25-marzo-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-25-marzo-2026</guid>
+      <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 26 marzo 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-26-marzo-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-26-marzo-2026</guid>
+      <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 2 aprile 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-2-aprile-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-2-aprile-2026</guid>
+      <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 14 aprile 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-aprile-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-aprile-2026</guid>
+      <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 16 aprile 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-16-aprile-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-16-aprile-2026</guid>
+      <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 17 aprile 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-17-aprile-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-17-aprile-2026</guid>
+      <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 21 aprile 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-aprile-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-aprile-2026</guid>
+      <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 7 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-7-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-7-maggio-2026</guid>
+      <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato dell'8 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-dell8-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-dell8-maggio-2026</guid>
+      <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato n.2 del 12 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n2-del-12-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n2-del-12-maggio-2026</guid>
+      <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 12 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-12-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-12-maggio-2026</guid>
+      <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 20 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-20-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-20-maggio-2026</guid>
+      <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato n.2 del 26 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n2-del-26-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n2-del-26-maggio-2026</guid>
+      <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 26 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-26-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-26-maggio-2026</guid>
+      <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 29 maggio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-29-maggio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-29-maggio-2026</guid>
+      <pubDate>Fri, 29 May 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 3 giugno 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-3-giugno-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-3-giugno-2026</guid>
+      <pubDate>Wed, 03 Jun 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 25 giugno 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-25-giugno-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-25-giugno-2026</guid>
+      <pubDate>Thu, 25 Jun 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 1 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-1-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-1-luglio-2026</guid>
+      <pubDate>Wed, 01 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 10 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-luglio-2026</guid>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 14 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-luglio-2026</guid>
+      <pubDate>Tue, 14 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato n.3 del 21 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n3-del-21-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n3-del-21-luglio-2026</guid>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato n.2 del 21 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n2-del-21-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-n2-del-21-luglio-2026</guid>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 21 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-luglio-2026</guid>
+      <pubDate>Tue, 21 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 24 luglio 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-luglio-2026</link>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-luglio-2026</guid>
+      <pubDate>Fri, 24 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
