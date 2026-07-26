@@ -148,15 +148,16 @@ MAX_DESCRIPTION_CHARS = 600
 # solito sta in un blocco "field--name-body" o simile; come rete di
 # sicurezza si ripiega su <article> o sul <main> della pagina.
 CONTENT_SELECTORS = [
-    {"class_": re.compile(r"field--name-body")},
-    {"class_": re.compile(r"field--type-text-with-summary")},
-    {"class_": re.compile(r"^content$")},
+    {"class": re.compile(r"field--name-body")},
+    {"class": re.compile(r"field--type-text-with-summary")},
+    {"class": re.compile(r"^content$")},
 ]
 
 
 def extract_description(html: str) -> str:
     """Estrae un breve estratto testuale dalla pagina di un singolo comunicato."""
     soup = BeautifulSoup(html, "lxml")
+    print(f"    [debug] pagina scaricata: {len(html)} caratteri di HTML", file=sys.stderr)
 
     # 1) meta description / og:description, se presenti e non generiche
     for attrs in (
@@ -167,6 +168,7 @@ def extract_description(html: str) -> str:
         if meta and meta.get("content"):
             text = meta["content"].strip()
             if len(text) > 20:
+                print(f"    [debug] trovata via meta {attrs}: {len(text)} caratteri", file=sys.stderr)
                 return _truncate(text)
 
     # 2) blocchi di contenuto tipici di Drupal
@@ -175,6 +177,7 @@ def extract_description(html: str) -> str:
         if node:
             text = " ".join(node.get_text(" ", strip=True).split())
             if len(text) > 20:
+                print(f"    [debug] trovata via selettore {selector}: {len(text)} caratteri", file=sys.stderr)
                 return _truncate(text)
 
     # 3) fallback: <article>, poi <main>, prendendo i paragrafi
@@ -187,8 +190,10 @@ def extract_description(html: str) -> str:
             text = " ".join(t for t in paragraphs if t)
             text = " ".join(text.split())
             if len(text) > 20:
+                print(f"    [debug] trovata via <{tag_name}>/<p>: {len(text)} caratteri", file=sys.stderr)
                 return _truncate(text)
 
+    print("    [debug] NESSUN testo trovato con nessuno dei metodi", file=sys.stderr)
     return ""
 
 
@@ -261,6 +266,7 @@ def main() -> int:
             pub_date = parse_date_from_slug(it["link"]) or datetime.now(timezone.utc)
 
             description = ""
+            print(f"  -> leggo comunicato: {it['title']}", file=sys.stderr)
             detail_html = fetch_html(it["link"])
             if detail_html:
                 description = extract_description(detail_html)
@@ -283,6 +289,7 @@ def main() -> int:
             break
         if it.get("description"):
             continue
+        print(f"  -> (backfill) leggo comunicato: {it['title']}", file=sys.stderr)
         detail_html = fetch_html(it["link"])
         if detail_html:
             it["description"] = extract_description(detail_html)
