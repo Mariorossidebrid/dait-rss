@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Thu, 06 Aug 2026 12:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 15:06:05 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 24 dicembre 2025</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</link>
@@ -309,6 +309,13 @@
       <description>Fondo per la progettazione definitiva ed esecutiva relativa ad interventi di messa in sicurezza - Annualità 2026</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-3-agosto-2026</guid>
       <pubDate>Mon, 03 Aug 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 6 agosto 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-6-agosto-2026</link>
+      <description>Si comunica che è stato adottato il decreto del Direttore Centrale per la Finanza Locale, datato 21 luglio 2026, diffuso sul sito internet del Dipartimento per gli Affari Interni e Territoriali, Direzione Centrale per la Finanza Locale, nella sezione «I DECRETI», con avviso in corso di pubblicazione nella Gazzetta Ufficiale della Repubblica italiana, recante disposizioni attuative per l’erogazione, il monitoraggio, la rendicontazione e l’eventuale revoca delle risorse del Fondo istituito dall’articolo 1, commi 772, della legge 30 dicembre 2025, n. 199, relative agli interventi per i quali il…</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-6-agosto-2026</guid>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
