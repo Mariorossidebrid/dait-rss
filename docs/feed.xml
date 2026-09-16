@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Wed, 16 Sep 2026 08:01:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:50:41 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 24 dicembre 2025</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</link>
@@ -358,6 +358,13 @@
       <description>Definizione, a decorrere dall’anno 2026, delle modalità, dei criteri e dei termini per il riparto e l’attribuzione dei contributi spettanti ai Comuni facenti parte delle fusioni realizzate negli anni 2014 e successivi.</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-14-settembre-2026</guid>
       <pubDate>Mon, 14 Sep 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 16 settembre 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-16-settembre-2026</link>
+      <description>Proroga del termine di conclusione degli interventi relativi alle “medie opere” - articolo 1, comma 139-ter, legge n. 145/2018.</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-16-settembre-2026</guid>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
