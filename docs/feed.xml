@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Thu, 24 Sep 2026 07:55:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 13:00:53 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 24 dicembre 2025</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</link>
@@ -372,6 +372,13 @@
       <description>Rimborso delle spese sostenute in occasione delle consultazioni referendarie e suppletive del 22 e 23 marzo 2026. Pagamento in acconto nella misura del 90 per cento.</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-22-settembre-2026</guid>
       <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 24 settembre 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-settembre-2026</link>
+      <description>Rendicontazione TBEL anno 2026. Contributi agli enti locali per la progettazione definitiva ed esecutiva annualità 2017-2023 (art. 41-bis D.L. n. 50 del 2017 e art. 1 commi da 51 a 58 della L. n. 160 del 2019).</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-settembre-2026</guid>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
