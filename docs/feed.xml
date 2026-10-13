@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Tue, 13 Oct 2026 04:26:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:18:13 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 24 dicembre 2025</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</link>
@@ -400,6 +400,13 @@
       <description>Criteri e modalità di riparto del fondo istituito al fine di contribuire alle spese sostenute dai comuni per l'assistenza ai minori per i quali sia stato disposto l'allontanamento dalla casa familiare con provvedimento dell'autorità giudiziaria, per l’anno 2026</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-12-ottobre-2026</guid>
       <pubDate>Mon, 12 Oct 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 13 ottobre 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-ottobre-2026</link>
+      <description>Dimostrazione della copertura del costo dei servizi, per l'anno 2024, per gli enti in condizione di deficitarietà' strutturale ed enti equiparati dalla normativa</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-ottobre-2026</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
