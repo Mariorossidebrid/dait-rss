@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Wed, 21 Oct 2026 12:32:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 17:45:12 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 24 dicembre 2025</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-24-dicembre-2025</link>
@@ -421,6 +421,13 @@
       <description>Contributo cinque per mille dell’IRPEF relativo all’anno d’imposta 2024 - anno finanziario 2025.</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-16-ottobre-2026</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 21 ottobre 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-ottobre-2026</link>
+      <description>Elenco dei revisori dei conti degli enti locali - Presentazione delle nuove domande di iscrizione nell'Elenco in vigore dal 1° gennaio 2027 e adempimenti per i soggetti già iscritti</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-ottobre-2026</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
