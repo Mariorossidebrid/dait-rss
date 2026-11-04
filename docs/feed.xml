@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:43:07 +0000</lastBuildDate>
-    <item>
-      <title>Comunicato del 21 gennaio 2026</title>
-      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-gennaio-2026</link>
-      <description>Approvazione della modalità di certificazione relativa all’attribuzione, per l’anno 2026, del contributo per le spese sostenute per il personale cui è stato concesso, nell’anno 2025, il distacco per motivi sindacali.</description>
-      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-21-gennaio-2026</guid>
-      <pubDate>Wed, 21 Jan 2026 09:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Nov 2026 19:01:39 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 22 gennaio 2026</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-22-gennaio-2026</link>
@@ -428,6 +421,13 @@
       <description>Riparto per l’anno 2026 delle risorse non utilizzate sul capitolo 1316/PG1 dello stato di previsione della spesa del Ministero dell’interno per l’anno finanziario 2025 finalizzato alla realizzazione e alla manutenzione di opere pubbliche negli enti locali che si trovano nella condizione di scioglimento.</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-29-ottobre-2026</guid>
       <pubDate>Thu, 29 Oct 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 4 novembre 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-4-novembre-2026</link>
+      <description>Rendicontazione del contributo assegnato a valere sul Fondo per la promozione della legalità e per il ristoro del patrimonio degli enti locali e degli amministratori vittime di atti intimidatori (art. 1, comma 589, L. 30 dicembre 2021, n.234). Annualità 2022, 2023 e 2024.</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-4-novembre-2026</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
