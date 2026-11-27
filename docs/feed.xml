@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Fri, 27 Nov 2026 09:15:00 +0000</lastBuildDate>
-    <item>
-      <title>Comunicato del 10 febbraio 2026</title>
-      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-febbraio-2026</link>
-      <description>Fondo per lo sviluppo strutturale, economico e sociale dei piccoli comuni, di cui all’articolo 3 della legge 6 ottobre 2017, n. 158.</description>
-      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-10-febbraio-2026</guid>
-      <pubDate>Tue, 10 Feb 2026 09:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Nov 2026 19:14:39 +0000</lastBuildDate>
     <item>
       <title>Comunicato del 13 febbraio 2026</title>
       <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-13-febbraio-2026</link>
@@ -428,6 +421,13 @@
       <description>Criteri e modalità di riparto e utilizzo del fondo per la legalità e per la tutela degli amministratori locali vittime di atti intimidatori, per l’anno 2026</description>
       <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-23-novembre-2026</guid>
       <pubDate>Mon, 23 Nov 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comunicato del 27 novembre 2026</title>
+      <link>https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-27-novembre-2026</link>
+      <description>Approvazione delle modalità di trasmissione dell’istanza per la richiesta di contributo, annualità 2027, previsto per la copertura delle spese di progettazione.</description>
+      <guid isPermaLink="false">https://dait.interno.gov.it/finanza-locale/notizie/comunicato-del-27-novembre-2026</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
